@@ -1,0 +1,58 @@
+/* Tema Lautan */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #00d4ff;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #cceeff;
+}
+
+.content {
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content h2 {
+  color: #aeeeff;
+}
+
+.content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content li {
+  background-color: rgba(255, 255, 255, 0.05);
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 4px solid #00bfff;
+}
+
+footer {
+  margin-top: auto;
+  padding: 15px;
+  text-align: center;
+  background-color: #102733;
+  font-size: 0.9em;
+  color: #ccc;
+}
